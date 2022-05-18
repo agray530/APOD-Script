@@ -1,0 +1,54 @@
+.invisible {
+    visibility: hidden;
+  }
+  
+  .row {
+      display: flex;
+      flex: 1 1 0px;
+      align-items: top;
+      justify-content: center;
+    }
+  
+  .container {
+      display: flex; 
+      flex: 1 1 0px;
+      justify-content: center;
+    }
+  
+    h3 {
+      text-align: center;
+      text-shadow: 4px 4px 5px red, 8px 8px 5px rgb(202, 205, 202);
+      text-decoration-line: underline;
+      text-transform: uppercase;
+    }
+  
+    html {
+      background: url(https://downloops.com/wp-content/uploads/edd/2016/11/Starflight2-StarsAndUniverse_Fly-through_Motion_Background_Video_Loop_Sample3.jpg) 100%/cover fixed;
+      background-repeat: no-repeat;
+      background-size: auto;  background-repeat: no-repeat;
+      background-size: auto;
+  }
+    p {
+      margin: 35px;
+    }
+      [class*="heading"] {
+          color: #eee;
+          padding-bottom: 1in transparent;
+          margin: 20px;
+          border-style: groove;
+      }
+  
+    [class*="col-"] {
+      padding-top: 10px;
+      background-color: #eee;
+      background-color: rgba(204, 201, 98, 0.926);
+      margin: 20px;
+      border: 5px solid #FFFF00;
+      padding: 10px;
+      border-style: groove;
+       /* additionally, equal width */
+      
+    }
+    h1 {
+      text-align: center;
+    }

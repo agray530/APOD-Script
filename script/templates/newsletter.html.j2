@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <title>APOD Entries</title>
+    
+</head>
+
+<body>
+
+    <div class="container">     
+    <p>
+        <div class="heading">
+            <h1>{{ title }}</h1>
+        </div>
+    </p>
+   
+    </div>
+        {% for apod in apods %}
+        <div class="container">
+        <div class="row">
+        <div class="col-md">
+    <p>
+        <h3>{{ apod.title }}</h3>
+        <br>
+        <br>
+        {{apod.date}}
+        <br>
+        <br>
+        <img src="{{src}}{{apod.name}}" width="300" height="300">
+        <br>
+        <br>
+        {{apod.explanation}}
+    </p>
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
