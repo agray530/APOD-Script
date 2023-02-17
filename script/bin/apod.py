@@ -9,7 +9,7 @@ with open('/home/agray/apod-k', 'r') as file_to_read:       #API KEY in link wit
 # get data of the 3 APODs
 r = requests.get(k)                         #  "https://api.nasa.gov/planetary/apod?api_key=XXXXXXXXX&count=3",
 data = json.loads(r.text)
-
+#hehehe
 # Print APOD data into json list
 with open('/home/agray/comp_421_22s_agray/PROJ02/builds/apods.json', 'w') as f:
     # Display the values of "img"
